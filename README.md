@@ -18,8 +18,27 @@ While testing and code quality should not be compromised.
 Usage
 -----
 
+Get cookiecutter and create project template:
+
     pip install cookiecutter
     cookiecutter https://github.com/dawran6/cookiecutter-pypackage-minimal.git
+
+Create virtual environment for the project. If you don't have a preferred way,
+use Python3's built-in package `venv` to handle this. For example, create a
+virtual environment called "env" and activate it:
+
+    python3 -m venv env
+    source env/bin/activate
+
+Installed the required dependencies:
+
+    pip install -r dev-requirements.txt
+
+Now you can run tests:
+
+    make test
+    # for coverage report, use target test-cov:
+    make test-cov
 
 You should then change the classifiers in `{{ package_name }}/setup.py` - it is
 assumed that the project will run on the modern Python (a.k.a. Python 3.)
