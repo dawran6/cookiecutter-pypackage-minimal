@@ -1,0 +1,9 @@
+# Install {{ cookiecutter.package_name }} as an editable package
+-e .
+
+# testing
+pytest
+pytest-cov
+
+# linting
+flake8
