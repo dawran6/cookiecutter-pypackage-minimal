@@ -83,3 +83,10 @@ The decisions `cookiecutter-pypackage-minimal` makes should all be explained her
 * **Define testing dependencies in `tox.ini`**
   Avoid duplicating dependency definitions, and use `tox.ini` as the canonical
   description of how the unittests should be run.
+
+Credits
+-------
+
+* Thanks to [kragniz](https://github.com/kragniz), most of the ideas are
+  originated from kragniz's [cookiecutter-pypackage-minimal](https://github.com/kragniz/cookiecutter-pypackage-minimal)
+
