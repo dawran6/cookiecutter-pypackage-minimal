@@ -5,5 +5,12 @@
 pytest
 pytest-cov
 
-# linting
+# linting and code style
 flake8
+flake8-blind-except
+flake8-docstrings
+flake8-quotes
+pep8-naming
+
+# packaging
+wheel

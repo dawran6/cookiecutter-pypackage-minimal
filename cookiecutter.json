@@ -2,7 +2,7 @@
     "author_name": "Daw-Ran Liou",
     "author_email": "dawran6@gmail.com",
 
-    "package_name": "My Package",
+    "package_name": "mypackage",
     "package_version": "0.1.0",
     "package_description": "My Awesome Package.",
     "package_url": "https://github.com/dawran6/cookiecutter-pypackage-minimal",
